@@ -22,7 +22,7 @@ public class TransactionTarget {
 		{
 			sum=0;
 			flag=0; //if target not achieved
-			System.out.println("Please enter value of Target "+i);
+			System.out.println("Please Enter Value of Target "+i);
 			int target=sc.nextInt();
 			
 			for(int j=0;j<revenue.length;j++)
@@ -30,7 +30,7 @@ public class TransactionTarget {
 				sum+=revenue[j];
 				if(sum>=target)
 				{
-				System.out.println("Target Achieved of Day "+(j+1));
+				System.out.println("Target Achieved Of Day "+(j+1));
 				flag=1; //if target achieved
 				break;
 				}

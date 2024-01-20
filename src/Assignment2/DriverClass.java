@@ -22,7 +22,7 @@ public class DriverClass {
 			is.sort(currency);
 			//System.out.println("After Sorting : "+Arrays.toString(currency));
 			
-			System.out.println("Enter Amount you wish to exchange");
+			System.out.println("Enter Amount You Wish To Exchange:");
 			int amount=sc.nextInt();
 			
 			NoteCount nc=new NoteCount();
